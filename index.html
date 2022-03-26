@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" style="">
+<html lang="en" >
 
 <head>
     <meta charset="utf-8">
@@ -24,22 +24,28 @@
     </div>
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation" id="myMenu">
         <div class="" style=" margin-left:2.6%; margin-right:2.6%;">
-            <div class="navbar-header page-scroll"> <button type="button" class="navbar-toggle" data-toggle="collapse"
-                    data-target=".navbar-ex1-collapse"> <span class="sr-only">Toggle navigation</span> <span
-                        class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
             </div>
             <div class="collapse navbar-collapse navbar-ex1-collapse" id="toBeCollapsed">
                 <div class="mynavigation">
+                    <div id="logo">
+                        <a href="/">
+                            <img src = "./images/verve logo.png" class="logo-image">
+                        </a>
+                    </div>
                     <div class="left-navigation">
                         <div class="nav navbar-nav navbar-left navbar_list">
-                            <div id="logo"> 
-                            </div>
                         </div>
                     </div>
                     <div class="centre-navigation">
-                        <!-- <div id="logo"> <img src="images/incand--.png" class="logo-image">
-                            <center><img src="images/candle.png" class="logo-image-candle"></center>
-                        </div> -->
+                        <ul class="nav navbar-nav navbar- navbar_list">
+                        </ul>
                     </div>
                     <div class="right-navigation">
                         <ul class="nav navbar-nav navbar-right navbar_list">
@@ -53,18 +59,27 @@
         </div>
     </nav>
     <div id="fullpage">
-        <div>
-            <video playsinline loop autoplay muted preload="none"
-                                poster="" data-method="autoplayVideo">
-                                <source src="images/verve_w_cs.mp4">
-                            </video>
+        <div class="video-wrapper" style="inset: 0px 0% 0%;">
+            <div class="video-div">
+                <div class="vsc-controller"></div>
+                <div class="video-over"></div>
+                <video src="./images/verve_w_cs.mp4" playsinline="" webkit-playsinline="true" preload="none" loop="" class="video" id="alcher_intro_video" controls="" autoplay="" muted=""></video>
+            </div>
         </div>
+           <!--<video playsinline loop autoplay muted preload="none" poster="" data-method="autoplayVideo" id="myVideo" onclick="pauseVid">
+                <source src="">
+            </video>-->
         <div class="section" data-anchor="home" style="height:100%; overflow:hidden;">
-            <section class="home-section" style="">
-                <div id="scroller"> <a class="" href="#events"> <span>
-                            <center><i class="fa fa-angle-down fa-2x glyphicon glyphicon-chevron-down animated"></i>
+            <section class="home-section" >
+                <div id="scroller">
+                    <a class="" href="#events">
+                        <span>
+                            <center>
+                                <i class="fa fa-angle-down fa-2x glyphicon glyphicon-chevron-down animated"></i>
                             </center>
-                        </span> </a></div>
+                        </span>
+                    </a>
+                </div>
             </section>
         </div>
         <div class="section" data-anchor="events" style="background:#404855;">
@@ -105,8 +120,8 @@
                                         </p>
                                     </div>
                                     <div class="col-md-4 animate slideInRight delay-5">
-                                        <center><img src="images/events/literati.jpg"
-                                                class="events-image animate slideInRight delay-5"></center>
+                                        <center>
+                                            <img src="images/events/literati.jpg" class="events-image animate slideInRight delay-5">
                                         </center>
                                     </div>
                                 </div>
@@ -116,7 +131,7 @@
                             <div class="col-xs-12">
                                 <div class="row">
                                     <div class="col-md-9">
-                                        <span class="events-heading">CONVINCIO</span>
+                                        <span class="events-heading">Convincio</span>
                                         <p class="events-content djnight animate scaleIn">
                                             False hope.
                                             False promises.
@@ -138,8 +153,75 @@
                                         </p>
                                     </div>
                                     <div class="col-md-3">
-                                        <center><img src="images/events/convincio.jpg"
-                                                class="events-image animate slideInRight delay-5" height=170></center>
+                                        <center>
+                                            <img src="images/events/convincio.jpg" class="events-image animate slideInRight delay-5" height=170>
+                                        </center>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="com__section com__section--text">
+                            <div class="col-xs-12">
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <span class="events-heading">Anarchades</span>
+                                        <p class="events-content djnight animate scaleIn">
+                                            A prophecy.<br />
+                                            Three universes.<br />
+                                            Heroes whom we all idolize.<br /> 
+                                            And a threat that might just end the world as we know it.<br />
+                                            The stakes are higher than ever.<br />
+                                            Anarchy is just around the corner, looming over our souls, and we have got no more time to waste!<br />
+                                            With Verve XVI knocking at our doorstep, the Literary Circle presents before you a battle where every step you take can blow up a landmine.
+                                            So save the dates if you have it in you to save the world. You're expected in teams of 3-4.<br />
+                                            ANARCHADES, VERVE XVI<br />
+                                            Cash prizes worth more than ₹10K.<br />
+                                            Date: 9th April<br />
+                                            Time: 7 PM<br />
+                                            Be There!<br />
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <center>
+                                            <img src="images/events/convincio.jpg" class="events-image animate slideInRight delay-5" height=170>
+                                        </center>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="com__section com__section--text">
+                            <div class="col-xs-12">
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <span class="events-heading">Open Mic</span>
+                                        <p class="events-content djnight animate scaleIn">
+                                            With Verve right around the corner, we are back with one of our flagship events: OPEN MIC <br />
+                                            Open Mic is the perfect opportunity for you to come showcase your talent.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <center>
+                                            <img src="images/events/convincio.jpg" class="events-image animate slideInRight delay-5" height=170>
+                                        </center>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="com__section com__section--text">
+                            <div class="col-xs-12">
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <span class="events-heading">Treasure Hunt</span>
+                                        <p class="events-content djnight animate scaleIn">
+                                            A ruined masterpiece; A broken clock; and an endless labyrinth with deceptions and dead ends on every corner; this adventure will leave your team of three on the edge of your seats! <br /> The crime, and the journey awaits you. <br />
+                                            Date: 10th April<br />
+                                            Time: 11 AM<br />
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <center>
+                                            <img src="images/events/convincio.jpg" class="events-image animate slideInRight delay-5" height=170>
+                                        </center>
                                         <!-- <center><img src="images/events/djnight.png" class="events-image animate slideInRight delay-5"></center> -->
                                     </div>
                                 </div>
@@ -149,31 +231,23 @@
                             <div class="col-xs-12">
                                 <div class="row">
                                     <div class="col-md-9">
-                                        <span class="events-heading">CONVINCIO</span>
+                                        <span class="events-heading">Zodiac</span>
                                         <p class="events-content djnight animate scaleIn">
-                                            False hope.
-                                            False promises.
-                                            But, Real Emotions.
-                                            Real persuasion.
-                                            All of us want to make people follow our path, and believe everything we
-                                            say. Well, that isn't a pipedream anymore.
-                                            This is your chance to experience the heavenly power of words, in a scale
-                                            never heard of before. The potential to break the wall of human
-                                            consciousness and emerge victorious in a battle of the fittest, is within
-                                            you.
-                                            With enthralling events round the corner, get ready to shine and bring out
-                                            the chieftain in you.<br />
-                                            CONVINCIO. VERVE XVI.<br />
-                                            And most importantly, No Prerequisites, at all.<br />
-                                            Date: 10th April.<br />
-                                            Time: 3:00 PM.<br />
-                                            Save the date, and check in, on time.
+                                            "Hey Bullitt, it's almost been a year."<br />
+                                            If several nights of bingewatching serial killer documentaries has taught us anything it's that there's always method hidden between all the madness.<br />
+                                            Question is, can you find it?<br />
+                                            A deranged individual on the run, with literally nothing to lose. Taunting you, tempting you to catch him. So near, and yet so far.<br />
+                                            And the only thing that separates you from him in front of a grand jury is a set of carefully curated clues hidden in plain sight. Clues specially made for you, yet clues you just can't decipher.<br />
+                                            This Verve bring the monster to justice. Break down the unbreakable, venture into the murky waters, and finally, avenge the innocent.<br />
+                                            After all what are we here for if not to help the helpless and crush the cruel.<br />
+                                            Date: 9th April, 2021<br />
+                                            Time: 7 PM<br />
                                         </p>
                                     </div>
                                     <div class="col-md-3">
-                                        <center><img src="images/events/convincio.jpg"
-                                                class="events-image animate slideInRight delay-5" height=170></center>
-                                        <!-- <center><img src="images/events/djnight.png" class="events-image animate slideInRight delay-5"></center> -->
+                                        <center>
+                                            <img src="images/events/convincio.jpg" class="events-image animate slideInRight delay-5" height=170>
+                                        </center>
                                     </div>
                                 </div>
                             </div>
@@ -182,31 +256,15 @@
                             <div class="col-xs-12">
                                 <div class="row">
                                     <div class="col-md-9">
-                                        <span class="events-heading">CONVINCIO</span>
+                                        <span class="events-heading">WC2</span>
                                         <p class="events-content djnight animate scaleIn">
-                                            False hope.
-                                            False promises.
-                                            But, Real Emotions.
-                                            Real persuasion.
-                                            All of us want to make people follow our path, and believe everything we
-                                            say. Well, that isn't a pipedream anymore.
-                                            This is your chance to experience the heavenly power of words, in a scale
-                                            never heard of before. The potential to break the wall of human
-                                            consciousness and emerge victorious in a battle of the fittest, is within
-                                            you.
-                                            With enthralling events round the corner, get ready to shine and bring out
-                                            the chieftain in you.<br />
-                                            CONVINCIO. VERVE XVI.<br />
-                                            And most importantly, No Prerequisites, at all.<br />
-                                            Date: 10th April.<br />
-                                            Time: 3:00 PM.<br />
-                                            Save the date, and check in, on time.
+                                            Text
                                         </p>
                                     </div>
                                     <div class="col-md-3">
-                                        <center><img src="images/events/convincio.jpg"
-                                                class="events-image animate slideInRight delay-5" height=170></center>
-                                        <!-- <center><img src="images/events/djnight.png" class="events-image animate slideInRight delay-5"></center> -->
+                                        <center>
+                                            <img src="images/events/convincio.jpg" class="events-image animate slideInRight delay-5" height=170>
+                                        </center>
                                     </div>
                                 </div>
                             </div>
@@ -215,31 +273,15 @@
                             <div class="col-xs-12">
                                 <div class="row">
                                     <div class="col-md-9">
-                                        <span class="events-heading">CONVINCIO</span>
+                                        <span class="events-heading">NITD Awards</span>
                                         <p class="events-content djnight animate scaleIn">
-                                            False hope.
-                                            False promises.
-                                            But, Real Emotions.
-                                            Real persuasion.
-                                            All of us want to make people follow our path, and believe everything we
-                                            say. Well, that isn't a pipedream anymore.
-                                            This is your chance to experience the heavenly power of words, in a scale
-                                            never heard of before. The potential to break the wall of human
-                                            consciousness and emerge victorious in a battle of the fittest, is within
-                                            you.
-                                            With enthralling events round the corner, get ready to shine and bring out
-                                            the chieftain in you.<br />
-                                            CONVINCIO. VERVE XVI.<br />
-                                            And most importantly, No Prerequisites, at all.<br />
-                                            Date: 10th April.<br />
-                                            Time: 3:00 PM.<br />
-                                            Save the date, and check in, on time.
+                                            Text
                                         </p>
                                     </div>
                                     <div class="col-md-3">
-                                        <center><img src="images/events/convincio.jpg"
-                                                class="events-image animate slideInRight delay-5" height=170></center>
-                                        <!-- <center><img src="images/events/djnight.png" class="events-image animate slideInRight delay-5"></center> -->
+                                        <center>
+                                            <img src="images/events/convincio.jpg" class="events-image animate slideInRight delay-5" height=170>
+                                        </center>
                                     </div>
                                 </div>
                             </div>
@@ -248,51 +290,61 @@
                     <nav class="com__nav">
                         <div style="display:block; height:60px;"></div>
                         <ul class="com__nav-list">
-                            <li class="com__nav-item" style="display:none;"> <a href="" class="com__nav-link"> <span
-                                        class="events-text" class="events-text" style="">Events</span> <span
-                                        class="events-date-text" style="">19 MARCH</span> </a></li>
-                            <li class="com__nav-item"
-                                style="background:url('images/icons/literati.png') no-repeat; background-size:contain; background-position:center;">
-                                <a href="" class="com__nav-link"> <span class="events-text" class="events-text"
-                                        style="">LITERATI</span> <span class="events-date-text" style="">12 Feb</span>
+                            <li class="com__nav-item" style="display:none;">
+                                <a href="" class="com__nav-link">
+                                    <span class="events-text">Events</span>
+                                    <span class="events-date-text">19 MARCH</span>
                                 </a>
                             </li>
-                            <li class="com__nav-item"
-                                style="background:url('images/icons/convincio.png') no-repeat; background-size:contain; background-position:center;">
-                                <a href="" class="com__nav-link"> <span class="events-text" class="events-text"
-                                        style="">CONVINCIO</span> <span class="events-date-text" style="">10
-                                        April</span> </a>
+                            <li class="com__nav-item" style="background:url('images/icons/literati.png') no-repeat; background-size:contain; background-position:center;">
+                                <a href="" class="com__nav-link">
+                                    <span class="events-text" class="events-text"> Literati</span>
+                                    <span class="events-date-text" >30 March</span>
+                                </a>
                             </li>
-                            <li class="com__nav-item"
-                                style="background:url('images/icons/djnight.png') no-repeat; background-size:contain; background-position:center;">
-                                <a href="" class="com__nav-link"> <span class="events-text" class="events-text"
-                                        style="font-size:3vw;">ANARCHADES</span> <span class="events-date-text"
-                                        style="">13 Feb</span> </a>
+                            <li class="com__nav-item" style="background:url('images/icons/convincio.png') no-repeat; background-size:contain; background-position:center;">
+                                <a href="" class="com__nav-link">
+                                    <span class="events-text" class="events-text"> Convincio</span>
+                                    <span class="events-date-text" >10 April</span>
+                                </a>
                             </li>
-                            <li class="com__nav-item"
-                                style="background:url('images/icons/carpediem.png') no-repeat; background-size:contain; background-position:center;">
-                                <a href="" class="com__nav-link"> <span class="events-text" class="events-text"
-                                        style="">OPEN MIC</span> <span class="events-date-text" style="">15 Feb</span> </a>
+                            <li class="com__nav-item" style="background:url('images/icons/anarcades.png') no-repeat; background-size:contain; background-position:center;">
+                                <a href="" class="com__nav-link">
+                                    <span class="events-text" class="events-text" style="font-size:3vw;"> Anarchades </span>
+                                    <span class="events-date-text">9 April</span>
+                                </a>
                             </li>
-                            <li class="com__nav-item"
-                                style="background:url('images/icons/thunder-march.png') no-repeat; background-size:contain; background-position:center;">
-                                <a href="" class="com__nav-link"> <span class="events-text" class="events-text"
-                                        style="">TREASURE HUNT</span> <span class="events-date-text" style="">14
-                                        Feb</span> </a>
+                            <li class="com__nav-item" style="background:url('images/icons/openmic.png') no-repeat; background-size:contain; background-position:center;">
+                                <a href="" class="com__nav-link">
+                                    <span class="events-text" class="events-text"> Open Mic</span>
+                                    <span class="events-date-text" >8 April</span> </a>
+                            </li>
+                            <li class="com__nav-item" style="background:url('images/icons/TH.png') no-repeat; background-size:contain; background-position:center;">
+                                <a href="" class="com__nav-link">
+                                    <span class="events-text" class="events-text"> Treasure Hunt </span>
+                                    <span class="events-date-text" >10 April</span> </a>
+                            </li>
+                            <li class="com__nav-item" style="background:url('images/icons/zodiac.png') no-repeat; background-size:contain; background-position:center;">
+                                <a href="" class="com__nav-link">
+                                    <span class="events-text" class="events-text"> Zodiac</span>
+                                    <span class="events-date-text" >9 April</span> </a>
+                            </li>
+                            <li class="com__nav-item" style="background:url('images/icons/wc2.png') no-repeat; background-size:contain; background-position:center;">
+                                <a href="" class="com__nav-link">
+                                    <span class="events-text" class="events-text"> WC2</span>
+                                    <span class="events-date-text" >10 April</span> </a>
+                            </li>
+                            <li class="com__nav-item" style="background:url('images/icons/nitd-awards.png') no-repeat; background-size:contain; background-position:center;">
+                                <a href="" class="com__nav-link">
+                                    <span class="events-text" class="events-text"> NITD Awards</span>
+                                    <span class="events-date-text" >10 April</span> </a>
                             </li>
                         </ul>
                     </nav>
                 </div>
             </section>
         </div>
-        <!--<div class="section" data-anchor="sponsors"> <section class="sponsors-section"><div class="position-manager" style="height:60px; display:none; background:transparent;"></div><div class="row" style="position:relative;"><div class="col-xs-12" style="margin:0; padding:0;"><div class="events-writing"><span style="font-size:80%; padding:0; margin:0;">SPONSORS</span></div></div></div><div class="slide"><div class="sponsors"> <span class="sponsors-heading">Magazine Partner</span><div class="col-sm-12"><div class="col-sm-3"></div><div class="col-sm-3"><a href="http://eclecticnortheast.in/" target="_blank" class="sponsors-link"><img src="images/sponsors/ec.png" class="sponsors-image" alt=""/></a></div><div class="col-sm-3"><a href="http://www.northeasttoday.in/" target="_blank" class="sponsors-link"><img src="images/sponsors/northeast_today.png" class="sponsors-image" alt="" /></a></div><div class="col-sm-3"></div></div><hr style="display:block; width:100%; border-color:transparent;"> <span class="sponsors-heading">Youth Magazine Partner</span><div class="col-sm-12"><div class="col-sm-4"></div><div class="col-sm-4"><a href="http://youthincmag.com/" target="_blank" class="sponsors-link"><img src="images/sponsors/youth_incorporated.png" class="sponsors-image" alt="youth_incorporated" /></a></div><div class="col-sm-4"></div></div></div></div><div class="slide"><div class="sponsors"> <span class="sponsors-heading">Educational Partner</span><div class="col-sm-12"><div class="col-sm-4"></div><div class="col-sm-4"><a href="http://www.faadooengineers.com/" target="_blank" class="sponsors-link"><img src="images/sponsors/faadoo_engineers.png" class="sponsors-image" alt="" style="width:100px;"/></a></div><div class="col-sm-4"></div></div><hr style="display:block; width:100%; border-color:transparent;"> <span class="sponsors-heading">Competition Partner</span><div class="col-sm-12"><div class="col-sm-4"></div><div class="col-sm-4"><a href="http://dare2compete.com/" target="_blank" class="sponsors-link"><img src="images/sponsors/dare_to_compete.png" class="sponsors-image" alt="youth_incorporated" /></a></div><div class="col-sm-4"></div></div></div></div> <div class="slide"><div class="sponsors"> <span class="sponsors-heading">Student Opportunity Partner</span><div class="col-sm-12"><div class="col-sm-4"></div><div class="col-sm-4"><a href="http://www.twenty19.com/" target="_blank" class="sponsors-link"><img src="images/sponsors/twenty_19.png" class="sponsors-image" alt="" /></a></div><div class="col-sm-4"></div></div></div></div> </section></div>-->
     </div>
-
-
-
-
-
-
     <script src="js/jquery-1.11.3.min.js"></script>
     <script src="js/modernizr-2.8.3.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -301,6 +353,14 @@
     <script src="js/main.js"></script>
     <script src="js/featurettes.js"></script>
     <script src="js/myanimation.js"></script>
+    <!--<script>
+        var vid = document.getElementById("myVideo");
+        function playVid() {
+            vid.play();
+        }
+        function pauseVid() {
+            vid.pause();
+        }
+    </script>-->
 </body>
-
 </html>

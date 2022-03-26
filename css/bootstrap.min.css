@@ -43,11 +43,9 @@ video {
     height: 50vw; */
 
     width: 100vw;
-      height: 100vh;
-      /*background-attachment: fixed;
-      background-size: 100% 100%;*/
-      position: absolute;
-      z-index: 1;
+    height: 100vh;
+    position: absolute;
+    z-index: 1;
 }
 
 audio:not([controls]) {
@@ -7651,7 +7649,7 @@ button.close {
     margin: 1px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: #000\9;
+    background-color: #000;
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #fff;
     border-radius: 10px

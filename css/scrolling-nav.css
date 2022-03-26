@@ -74,8 +74,8 @@ of those sections to manage the look and feel of the site. */
 
 .home-section {
     height: 100%;
-    background: center no-repeat fixed url("../images/sunburn.png");
     background-size: cover;
+    background-color: black;
 }
 
 .about-section {
