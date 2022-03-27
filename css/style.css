@@ -5,13 +5,12 @@
     font-weight: normal;
     font-style: normal;
 }
+@media (min-width: 576px) { 
+    .com__nav{
+        display:none;
+    }
+}
 
-/*@font-face{
-		font-family:'ThirstyRoughRegOne';
-		src:url('../fonts/ThirstyRoughRegOne.otf') format('opentype');
-		font-weight:normal;
-		font-style:normal;
-	}*/
 
 @font-face {
     font-family: 'Asfalto';
@@ -141,9 +140,11 @@
     -ms-flex-flow: row wrap;
     flex-flow: row wrap;
 }
-
+ 
 .com__nav {
     width: 9%;
+    position: relative;
+    top: 57px;
 }
 
 .com__nav-list {
@@ -217,7 +218,7 @@
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    padding: 0 20%;
+    padding: 0 40%;
     position: absolute;
     width: 280%;
     height: 100%;
@@ -788,9 +789,7 @@ a.events:active {
 }
 
 @media only screen and (max-width:768px) {
-    .com__section,
-    .about-section,
-    .featurettes-section {
+    .com__section{
         overflow: auto;
     }
 }
@@ -1497,4 +1496,22 @@ nav {
     position: relative;
     width: 72vw;
     height: auto;
+}
+@media only screen and (max-width:767px) {
+    .com__nav{
+        width: 100%;
+    }
+    .com__nav-link{
+        padding: 0;
+        /* border: 2px solid red; */
+        width: 100%;
+        align-items: center;
+
+    }
+    .events-text {
+        font-size: 6.5vw;
+    }
+    .events-date-text {
+        font-size: 3.3vw;
+    }
 }
