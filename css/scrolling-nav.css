@@ -23,7 +23,7 @@ html {
     overflow-x: auto;
     overflow-y: hidden;
     -webkit-overflow-scrolling: touch;
-}
+} 
 
 #startalk {
     flex: 0 0 auto;
@@ -38,7 +38,39 @@ html {
     font-size: 2rem;
     
 
+} 
+
+/* .container {
+    position: fixed;
+    width: 100%;
+    display: flex;
 }
+
+.container section {
+    min-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: black;
+}
+
+.container section:nth-child(2){
+    background: cadetblue;
+}
+.container section:nth-child(3){
+    background: cadetblue;
+}
+.container section:nth-child(4){
+    background: cadetblue;
+}
+
+.container section .content {
+    max-width: 800px;
+    padding: 40px;
+    text-align: center;
+} */
 
 .navbar {
     margin-top: 2%;
