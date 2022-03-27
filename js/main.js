@@ -2,10 +2,12 @@ $(function() {
 
     function scrollH(e){
         e.preventDefault();
+        e.stopPropagation();
         e = window.event || e;
         let delta = Math.max(-1,Math.min(1,(e.wheelDelta || -e.detail)));
-        document.querySelector('.container').scrollLeft -= (delta*40);
-        document.querySelector('.container').scrollRight -= (delta*40);
+        document.querySelector('.container').scrollRight += (delta*80);
+        document.querySelector('.container').scrollLeft -= (delta*80);
+        
     }
     if(document.querySelector('.container').addEventListener){
         document.querySelector('.container').addEventListener('mousewheel',scrollH,false);
