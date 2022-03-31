@@ -137,10 +137,10 @@ html {
     transform: translate(70%, -50%);
   }
   .next .card:nth-child(5) {
-    transform: translate(-170%, -50%);
+    transform: translate(190%, -50%);
   }
   .next .card:nth-child(6) {
-    transform: translate(-50%, -50%);
+    transform: translate(310%, -50%);
   }
   .next .card:nth-child(7) {
     transform: translate(70%, -50%);
@@ -163,7 +163,7 @@ html {
     transform: translate(190%, -50%);
   } 
   .reset .card .card:nth-child(5) {
-    transform: translate(-50%, -50%);
+    transform: translate(310%, -50%);
   }
   .reset .card .card:nth-child(6) {
     transform: translate(70%, -50%);
