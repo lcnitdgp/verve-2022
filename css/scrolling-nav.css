@@ -34,7 +34,7 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-width: 100%;
+    min-width: 38%;
     background: purple;
     color: #fff;
     font-size: 2rem;
@@ -142,3 +142,4 @@ of those sections to manage the look and feel of the site. */
     height: 100%;
     background: #eee;
 }
+
