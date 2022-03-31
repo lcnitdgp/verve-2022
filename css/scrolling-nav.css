@@ -88,6 +88,16 @@ html {
   .card:nth-child(4) {
     transform: translate(190%, -50%);
   }
+  .card:nth-child(5) {
+    transform: translate(310%, -50%);
+  }
+  .card:nth-child(6) {
+    transform: translate(70%, -50%);
+  }
+  .card:nth-child(7) {
+    transform: translate(190%, -50%);
+  }
+  
   
  
   
@@ -103,6 +113,16 @@ html {
   .next .card:nth-child(4) {
     transform: translate(70%, -50%);
   }
+  .next .card:nth-child(5) {
+    transform: translate(-170%, -50%);
+  }
+  .next .card:nth-child(6) {
+    transform: translate(-50%, -50%);
+  }
+  .next .card:nth-child(7) {
+    transform: translate(70%, -50%);
+  }
+  
   
   .reset .card {
     transition: none;
@@ -117,6 +137,15 @@ html {
     transform: translate(70%, -50%);
   }
   .reset .card .card:nth-child(4) {
+    transform: translate(190%, -50%);
+  } 
+  .reset .card .card:nth-child(5) {
+    transform: translate(-50%, -50%);
+  }
+  .reset .card .card:nth-child(6) {
+    transform: translate(70%, -50%);
+  }
+  .reset .card .card:nth-child(7) {
     transform: translate(190%, -50%);
   } 
 
