@@ -670,10 +670,7 @@ a.events:active {
 }
 
 @media only screen and (min-width:769px) {
-    .navbar_list {
-        /*border-top: 2.5px dotted #ffffff;
-        border-bottom: 2.5px dotted #ffffff;
-    */}
+    
     .left-navigation {
         position: absolute;
         left: 0;

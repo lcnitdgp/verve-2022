@@ -27,7 +27,7 @@ html {
 
 
 
-#startalk {
+/* #startalk {
     flex: 0 0 auto;
     min-height: 90vh;
     display: flex;
@@ -51,7 +51,74 @@ html {
 #startalk:nth-of-type(3) {
     background-color: white;
     
-}
+} */
+
+
+/* .cardcontainer {
+    position: relative;
+    background: black;
+    max-width: 650px;
+    min-width: 650px;
+    height: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+   */
+  .card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    width: 340px;
+    height: 400px;
+    background: red;
+    margin: 5px;
+    transition: transform 0.5s, background 0.3s ease-in-out;
+  }
+  .card:nth-child(1) {
+    transform: translate(-170%, -50%);
+  }
+  .card:nth-child(2) {
+    transform: translate(-50%, -50%);
+  }
+  .card:nth-child(3) {
+    transform: translate(70%, -50%);
+  }
+  .card:nth-child(4) {
+    transform: translate(190%, -50%);
+  }
+  
+ 
+  
+  .next .card:nth-child(1) {
+    transform: translate(-290%, -50%);
+  }
+  .next .card:nth-child(2) {
+    transform: translate(-170%, -50%);
+  }
+  .next .card:nth-child(3) {
+    transform: translate(-50%, -50%);
+  }
+  .next .card:nth-child(4) {
+    transform: translate(70%, -50%);
+  }
+  
+  .reset .card {
+    transition: none;
+  }
+  .reset .card .card:nth-child(1) {
+    transform: translate(-170%, -50%);
+  }
+  .reset .card .card:nth-child(2) {
+    transform: translate(-50%, -50%);
+  }
+  .reset .card .card:nth-child(3) {
+    transform: translate(70%, -50%);
+  }
+  .reset .card .card:nth-child(4) {
+    transform: translate(190%, -50%);
+  } 
 
 
 .navbar {
