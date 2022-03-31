@@ -70,8 +70,8 @@ html {
     left: 50%;
     transform: translate(-50%, -50%);
     display: inline-block;
-    width: 340px;
-    height: 400px;
+    width: 500px;
+    height: 600px;
     background: red;
     margin: 5px;
     transition: transform 0.5s, background 0.3s ease-in-out;
