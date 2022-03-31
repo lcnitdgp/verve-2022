@@ -3,6 +3,7 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
+ @import url(https://fonts.googleapis.com/css?family=Montserrat);
 
 body {
     width: 100%;
@@ -64,6 +65,28 @@ html {
     overflow: hidden;
   }
    */
+   .sponsor-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 10rem;
+    margin: 0 auto;
+    margin-top: 15%;
+    max-width: 700px;
+  }
+  
+  li p {
+    margin-top: 3rem;
+    font-family: system-ui;
+    text-align: center;
+  }
+  
+  .sponsor img {
+    aspect-ratio: 1/1;
+    width: 100%;
+    object-fit: contain;
+  }
+  
+
   .card {
     position: absolute;
     top: 50%;
