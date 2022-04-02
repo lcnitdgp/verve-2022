@@ -115,14 +115,13 @@ html {
     transform: translate(310%, -50%);
   }
   .card:nth-child(6) {
-    transform: translate(70%, -50%);
+    transform: translate(430%, -50%);
   }
   .card:nth-child(7) {
-    transform: translate(190%, -50%);
+    transform: translate(550%, -50%);
   }
   
   
- 
   
   .next .card:nth-child(1) {
     transform: translate(-290%, -50%);
@@ -143,9 +142,8 @@ html {
     transform: translate(310%, -50%);
   }
   .next .card:nth-child(7) {
-    transform: translate(70%, -50%);
+    transform: translate(430%, -50%);
   }
-  
   
   .reset .card {
     transition: none;
@@ -161,17 +159,16 @@ html {
   }
   .reset .card .card:nth-child(4) {
     transform: translate(190%, -50%);
-  } 
+  }
   .reset .card .card:nth-child(5) {
     transform: translate(310%, -50%);
   }
   .reset .card .card:nth-child(6) {
-    transform: translate(70%, -50%);
+    transform: translate(430%, -50%);
   }
   .reset .card .card:nth-child(7) {
-    transform: translate(190%, -50%);
-  } 
-
+    transform: translate(550%, -50%);
+  }
 
 .navbar {
     margin-top: 2%;
