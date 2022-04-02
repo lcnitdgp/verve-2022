@@ -1,4 +1,6 @@
 $(function () {
+
+   
     let holder = document.querySelectorAll('.cardcontainer')[0],
         cards = document.querySelectorAll('.card');
 
@@ -12,7 +14,7 @@ $(function () {
 
         preActiveCard.classList.remove('active');
         nextActiveCard.classList.add('active');
-        setTimeout(reset, 600);
+        setTimeout(reset, 2000);
     }
 
     function reset() {
@@ -22,7 +24,7 @@ $(function () {
         nextActiveCard.classList.remove('active');
     }
 
-    setInterval(scrollLeft, 1500);
+    setInterval(scrollLeft, 3000);
     // function scrollH(e){
     //     e.preventDefault();
     //     e.stopPropagation();

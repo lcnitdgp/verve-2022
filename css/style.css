@@ -1069,8 +1069,19 @@ hr.stylish-rule {
     text-align: center;
 }
 
+.star-writing {
+    font-family: Timber, Asfalto, Arial;
+    color: #ffa413;
+    font-size: 10vh;
+    text-align: center;
+    padding-bottom: 32%;
+}
+
 @media only screen and (max-width:768px) {
     .events-writing {
+        font-size: 10vh;
+    }
+    .star-writing {
         font-size: 10vh;
     }
 }
