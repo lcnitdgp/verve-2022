@@ -1254,21 +1254,20 @@ nav {
     height: auto;
 }
 @media only screen and (max-width:767px) {
-    .com__nav{
-        width: 100%;
-    }
-    .com__nav-link{
-        padding: 0;
-        /* border: 2px solid red; */
-        width: 100%;
-        align-items: center;
-
-    }
     .events-text {
-        font-size: 6.5vw;
+        font-size: 8vw;
     }
     .events-date-text {
-        font-size: 3.3vw;
+        font-size: 6vw;
+    }
+    .events-content{
+        font-size: 2vw;
+    }
+    .com__nav{
+        width: 20%;
+    }
+    .events-writing{
+        font-size: 6rem;
     }
 }
 

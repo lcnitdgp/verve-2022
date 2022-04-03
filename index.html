@@ -379,8 +379,7 @@
                             </div>
                         </section>
                     </div>
-                    <nav class="com__nav">
-                        <div style="display:none; height:60px;"></div>
+                    <nav class="com__nav animate slideOutRight delay-5">
                         <ul class="com__nav-list">
                             <li class="com__nav-item" style="display:none;">
                                 <a href="" class="com__nav-link">
@@ -388,7 +387,7 @@
                                     <span class="events-date-text">19 MARCH</span>
                                 </a>
                             </li>
-                            <li class="com__nav-item"
+                            <li class="com__nav-item" onclick="myFunction()"
                                 style="background:url('images/icons/literati.png') no-repeat; background-size:contain; background-position:center;">
                                 <a href="" class="com__nav-link">
                                     <span class="events-text" class="events-text">
@@ -407,7 +406,7 @@
                             <li class="com__nav-item"
                                 style="background:url('images/icons/anarcades.png') no-repeat; background-size:contain; background-position:center;">
                                 <a href="" class="com__nav-link">
-                                    <span class="events-text" class="events-text" style="font-size:3vw;"> Anarchades
+                                    <span class="events-text" class="events-text"> Anarchades
                                     </span>
                                     <span class="events-date-text">9 April</span>
                                 </a>
@@ -625,6 +624,11 @@
     <script src="js/main.js"></script>
     <script src="js/featurettes.js"></script>
     <script src="js/myanimation.js"></script>
+    <script>
+        function myFunction() {
+            document.getElementsByClassName(com__nav).style.width = "0px";
+        }
+    </script>
 
 </body>
 
