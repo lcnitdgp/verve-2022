@@ -1346,8 +1346,8 @@ html, body {
   }
   
   .pic-ctn {
-    width: 100vw;
-    height: 200px;
+    width: 200vw;
+    height: 300px;
   }
   
   @keyframes display {
@@ -1377,13 +1377,15 @@ html, body {
     position: relative;
     width: 100vw;
     height: 300px;
-    margin-top: 15vh;
+    margin-top: 25vh;
   }
   
   .pic-ctn > img {
+      height: 120%;
+      width: 25%;
     position: absolute;
     top: 0;
-    left: calc(50% - 100px);
+    left: calc(50% - 140px);
     opacity: 0;
     animation: display 10s infinite;
   }
