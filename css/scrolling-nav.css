@@ -96,6 +96,64 @@ html {
     margin: 0 auto;
     overflow: hidden;
   }
+
+  .eventcontainer {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+   
+  
+}
+
+
+
+#startalk {
+    flex: 0 0 auto;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 100%;
+    background: purple;
+    color: #fff;
+    font-size: 2rem;
+}
+#startalk:nth-of-type(1) {
+    background-color: black;
+    
+}
+#startalk:nth-of-type(2) {
+    background-color: black;
+    
+}
+#startalk:nth-of-type(3) {
+    background-color: black;
+    
+}
+#startalk:nth-of-type(4) {
+  background-color: black;
+  
+}
+#startalk:nth-of-type(5) {
+  background-color: black;
+  
+}
+#startalk:nth-of-type(6) {
+  background-color: black;
+  
+}
+#startalk:nth-of-type(7) {
+  background-color: black;
+  
+}
+#startalk:nth-of-type(8) {
+  background-color: black;
+  
+}
   
   .card {
     position: absolute;
