@@ -1297,12 +1297,14 @@ nav {
     display: flex;
 }
 .logo_img{
-  height: 500px;
+  height: 480px;
   width: 500px;
+  padding: 20px;
+  padding-bottom: 40px;
 }
 .about_des{
   padding: 50px;
-  font-size: 4rem;
+  font-size: 3rem;
   color: white;
 }
 
@@ -1370,10 +1372,12 @@ nav {
 }
   
 .pic-ctn {
-    position: relative;
+    position:relative;
     width: 100vw;
     height: 300px;
-    margin-top: 25vh;
+    margin-top: 0vh;
+    margin-bottom: 10vh;
+    align-self: center;
 }
   
 .pic-ctn > img {
