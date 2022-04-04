@@ -708,7 +708,8 @@ a.events:active {
 }
 
 .top-nav-collapse #logo .logo-image {
-    display: none;
+    display: flex;
+    width: 10%;
 }
 
 .top-nav-collapse #logo .logo-image-candle {
@@ -1339,18 +1340,13 @@ nav {
       /* border: 2px solid pink; */
     }
 }
-
-html, body {
-    margin: 0;
-    padding: 0;
-  }
-  
-  .pic-ctn {
+ 
+.pic-ctn {
     width: 200vw;
     height: 300px;
-  }
+}
   
-  @keyframes display {
+@keyframes display {
     0% {
       transform: translateX(200px);
       opacity: 0;
@@ -1371,34 +1367,34 @@ html, body {
       transform: translateX(-200px);
       opacity: 0;
     }
-  }
+}
   
-  .pic-ctn {
+.pic-ctn {
     position: relative;
     width: 100vw;
     height: 300px;
     margin-top: 25vh;
-  }
+}
   
-  .pic-ctn > img {
-      height: 120%;
-      width: 25%;
+.pic-ctn > img {
+    height: 120%;
+    width: 25%;
     position: absolute;
     top: 0;
     left: calc(50% - 140px);
     opacity: 0;
     animation: display 10s infinite;
-  }
+}
   
-  img:nth-child(2) {
+img:nth-child(2) {
     animation-delay: 2s;
-  }
-  img:nth-child(3) {
+}
+img:nth-child(3) {
     animation-delay: 4s;
-  }
-  img:nth-child(4) {
+}
+img:nth-child(4) {
     animation-delay: 6s;
-  }
-  img:nth-child(5) {
+}
+img:nth-child(5) {
     animation-delay: 8s;
-  }
+}
