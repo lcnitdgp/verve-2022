@@ -783,7 +783,7 @@ a.events:active {
 }
 
 .about-section {
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 @media only screen and (max-width:768px) {
@@ -887,7 +887,7 @@ a[data-modal-id="modal-register6"] .tl-tile-content {
 }
 
 .tl-tile-content {
-    /* overflow: hidden; */
+    overflow: hidden;
     cursor: pointer;
     min-width: 200px;
 }
