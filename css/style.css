@@ -44,7 +44,7 @@
     -ms-flex-align: stretch;
     align-items: stretch;
     height: 100vh;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 .com__content {
@@ -788,7 +788,7 @@ a.events:active {
 
 @media only screen and (max-width:768px) {
     .com__section{
-        
+        overflow: auto;
         overflow-y: scroll;
     }
 }
@@ -1061,7 +1061,7 @@ hr.stylish-rule {
     margin-top: 70px;
     position: relative;
     height: 93vh;
-    /* overflow: hidden !important; */
+    overflow: hidden !important;
 }
 
 .events-writing {
@@ -1281,7 +1281,7 @@ nav {
     flex-direction: column;
     padding-left: 150px;
     padding-right: 150px;
-    /* overflow: hidden; */
+    overflow: hidden;
     /* box-sizing: border-box; */
 }
 .head{
