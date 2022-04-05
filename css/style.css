@@ -1408,3 +1408,9 @@ img:nth-child(4) {
 img:nth-child(5) {
     animation-delay: 8s;
 }
+
+@media (max-width: 767px){
+    .hidden-mobile{
+        display: none;
+    }
+}
