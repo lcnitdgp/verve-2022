@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <tife>VERVE-2022</title>
+    <title>VERVE-2022</title>
     <link href="img/favicon.ico" rel="icon">
     <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -25,7 +25,7 @@
     </style>
 </head>
 
-<body data-target=".navbar-fixed-top" style="height:100%;">
+<body data-spy="scroll" data-target=".navbar-fixed-top" style="height:100%; overflow:hidden;">
     <div id="page-loader">
     </div>
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation" id="myMenu">
@@ -73,9 +73,17 @@
                     class="video" id="alcher_intro_video" autoplay="" muted=""></video>
             </div>
         </div>
-        <div class="section about_section" data-anchor="home" style="height:100%;">
+        <div class="section about_section" data-anchor="home" style="height:100%; overflow:hidden;">
             <section class="home-section">
-               
+                <div id="scroller">
+                    <a class="" href="#aboutus">
+                        <span>
+                            <center>
+                                <i class="fa fa-angle-down fa-2x glyphicon glyphicon-chevron-down animated"></i>
+                            </center>
+                        </span>
+                    </a>
+                </div>
             </section>
         </div>
         <!-- <div class="section" data-anchor="aboutus" style="background:black;">

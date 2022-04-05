@@ -1315,7 +1315,9 @@ nav {
         /* border: 2px solid red; */
         flex-direction: column;
         padding: 30px;
-        overflow: hidden;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        /* overflow: hidden; */
     }
     .head{
         display: flex;
