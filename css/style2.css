@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "caslon-antique-regular";
+    src: url("https://www.dafontfree.net/data/35/c/138686/Caslo-an.ttf") format("woff"), url("https://www.dafontfree.net/data/35/c/138686/Caslo-an.ttf") format("opentype"), url("https://www.dafontfree.net/data/35/c/138686/Caslo-an.ttf") format("truetype");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.body {
+    background-color: black !important;
+}
+
+h1 {
+    font-family: 'castellar';
+    color: gold;
+}
+
+p {
+    font-family: 'caslon-antique-regular', sans-serif;
+    color: azure;
+
+}
+
+.uk-section-primary {
+    background: transparent;
+    height: 100vh;
+
+}
+
+.uk-navbar-container:not(.uk-navbar-transparent) {
+    background: black;
+}
+
+.video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -20;
+    top: 0;
+}
+
+.about {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5vh 10vw;
+    background-color: black;
+}
+
+.ab-verve {
+    margin: 3vh 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
