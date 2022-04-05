@@ -1,8 +1,8 @@
-// function bounceScroller() {
-//     $("#scroller i").addClass("bounce"), setTimeout(function() {
-//         $("#scroller i").removeClass("bounce")
-//     }, 1e3)
-// }
+function bounceScroller() {
+    $("#scroller i").addClass("bounce"), setTimeout(function() {
+        $("#scroller i").removeClass("bounce")
+    }, 1e3)
+}
 
 function imageAdjuster() {
     var e = $(".left-navigation").width(),
