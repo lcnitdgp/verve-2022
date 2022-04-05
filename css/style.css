@@ -789,6 +789,7 @@ a.events:active {
 @media only screen and (max-width:768px) {
     .com__section{
         overflow: auto;
+        overflow-y: scroll;
     }
 }
 
@@ -1314,7 +1315,9 @@ nav {
         /* border: 2px solid red; */
         flex-direction: column;
         padding: 30px;
-        overflow: hidden;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        /* overflow: hidden; */
     }
     .head{
         display: flex;
@@ -1344,7 +1347,7 @@ nav {
 }
  
 .pic-ctn {
-    width: 200vw;
+    width: 500px;
     height: 300px;
 }
   
@@ -1373,6 +1376,7 @@ nav {
   
 .pic-ctn {
     position:relative;
+    min-width:300px;
     width: 100vw;
     height: 300px;
     margin-top: 0vh;
@@ -1382,7 +1386,9 @@ nav {
   
 .pic-ctn > img {
     height: 120%;
-    width: 25%;
+    max-height:400px;
+    width: 80%;
+    max-width:400px;
     position: absolute;
     top: 0;
     left: calc(50% - 140px);
